@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* color opcional de fondo */
+}
+
+.logo {
+  margin-left: 45%;
+  height: 130px; /* ajusta según tu imagen */
+}
+
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.contacto .icono {
+  height: 20px;
+}
+
+.fotoInicio {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+ /*
+.ampMarshall {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}*/
+/*-----------------------------------------------------------*/
+.espacioUno {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenSG,
+.fenderInicio {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.fenderSG {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fotoStratoInicio {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fenderInicio {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fenderInicio h5,
+.fenderInicio h4 {
+    margin: 0.5rem 0;
+}
+/*-----------------------------------------------------------*/
+.espacioDos {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenMarshall,
+.spiderInicio {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.ampMarshall {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.fotoLine6 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spiderInicio {
+    text-decoration: none;
+    color: inherit;
+}
+
+.spiderInicio h5,
+.spiderInicio h4 {
+    margin: 0.5rem 0;
+}
+/*-----------------------------------------------------------*/
+.espacioTres {
+    display: flex;
+    gap: 1rem; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 2rem;
+}
+
+.cardsInicio {
+  height: 27rem;
+  width: 18rem;
+}
